@@ -50,7 +50,7 @@ V ghost view
 G teleport to ghost view
 
 
-How to compile
+# How to compile
 
 You need freebasic www.freebasic.net, the 32bit version, even on 64bit machines, since MirrorEdge.exe is a 32bit application, and for all the pointers and offsets to be calculated correctly we need 32bit. Also, Windows doesn't allow a 64bit dll to be hooked into a 32bit program.
 
