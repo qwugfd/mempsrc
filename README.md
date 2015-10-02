@@ -5,14 +5,23 @@ This is a Multiplayer mod for the single player game Mirror's Edge, the Windows 
 
 # How to install
 
-1. Find where Mirror's Edge is installed and write that in gamedir.txt
+by hand
 
-2. Copy the Maps folder over the corresponding folder in TdGame\CookedPC. Overwrite the original files. You can also use the batch files, then it makes backups, and you can uninstall later, or if you have the Steam version, you can always "verify cache" to get the original files back. You might have to "run as administrator" the command line to be able to copy into the Mirror's Edge folder.
+1. Find where Mirror's Edge is installed and write the path in gamedir.txt
 
-3. Put the memultiplayersettings.ini in your Users\xxx\AppData\Roaming folder
+2. Copy the Maps folder over the corresponding folder in TdGame\CookedPC. Overwrite the original files. You can also use the mpinstallfiles.bat, then it makes backups, and you can uninstall later, or if you have the Steam version, you can always "verify cache" to get the original files back. You might have to "run as administrator" the command line to be able to copy into the Mirror's Edge folder.
 
-4. Run Server.exe, then Multiplayer.exe, then the game
+3. Put the memultiplayersettings.ini in your Users\xxx\AppData\Roaming folder. Since you will have to access this later to change ip and so on, make a link to the desktop.
 
+with the installer
+
+1. Right click on installmemp.bat and "run as administrator"
+
+2. Press "1" and "yes"
+
+3. If it was successful, you should have a link to the settings file on your desktop. If it didn't find the right installation you can try option "2" or ultimately write the path in gamedir.txt yourself and choose "3".
+
+Run Server.exe, then Multiplayer.exe, then the game.
 If everything worked out right, the Multiplayer.exe client and the Server.exe should exchange packets on the localhost (127.0.0.1).
 To go a step further, you can try the multiplayer in your local network.
 For this you need the game installed on an additional machine like a laptop.
